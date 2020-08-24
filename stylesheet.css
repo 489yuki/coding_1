@@ -1,0 +1,305 @@
+* {
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+}
+body {
+  background-color: #F6F6F6;
+  border-top: solid 6px #6CC6C4;
+  margin-top: 0;
+}
+.container {
+  width: 920px;
+  margin: 0 auto;
+
+}
+.header {
+  margin-bottom: 0;
+}
+.header-flex {
+  display:flex;
+  justify-content: space-between;
+  color: #737373;
+}
+.header-flex img {
+  width: 250px;
+  height: 45px;
+  margin: 55px 0 15px 0;
+}
+.header-right{
+  display: inline-block;
+}
+.header-right p {
+  font-size: 10px;
+  margin-top:11px;
+  margin-bottom: 10px;
+}
+.business-hours {
+  padding: 6px 18px;
+  border: solid 1px #D6D6D6;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.header-right h2 {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0 0;
+  color: #737373;
+
+}
+.fa-phone-alt {
+  margin-right: 10px;
+}
+.red {
+  color: #CA664F;
+}
+
+.menu-flex {
+  margin-bottom:20px;
+  font-size: 12px;
+
+}
+.menu-flex ul {
+  display: flex;
+  list-style: none;
+  padding: 0 0;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  border-radius: 6px;
+
+}
+.menu-flex li {
+  width: 20%;
+  height: 35px;
+  text-align: center;
+  padding: 17px 0 18px 0;
+  border-right: solid 1px #6CC6C4;
+  border-left: solid 1px #6CC6C4;
+}
+
+.menu-flex span {
+  display: block;
+  color:white;
+  font-weight: 700;
+}
+.menu-flex a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  width: 100%;
+}
+.menu-flex li:hover {
+  opacity: 0.4;
+}
+.first {
+  border-radius: 6px 0 0 6px;
+}
+.fifth {
+  border-radius: 0 6px 6px 0;
+}
+
+/*ここから真ん中部分*/
+.top-wrapper-flex {
+  display: flex;
+  justify-content: space-between;
+}
+/*真ん中の左*/
+.top-wrapper-left {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+}
+.top-wrapper-left ul  {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  margin: 0 0;
+}
+.top-wrapper-left h3 {
+  display: inline-block;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  padding: 13px 0 13px 0;
+  width: 100%;
+  margin: 0 0;
+  color: white;
+  font-size: 16px;
+}
+.top-wrapper-left span {
+  margin-right: 15px;
+}
+.top-wrapper-left li {
+  list-style: none;
+  position:relative;
+  padding: 15px 0 15px 20px;
+  border-bottom: solid 1px #6CC6C4;
+  font-size: 14px;
+}
+.top-wrapper-left li :hover {
+  color: #6cc6c4;
+  transition: 0.3s;
+}
+.top-wrapper-left a {
+  color: #595959;
+  text-decoration: none;
+  font-weight: 700;
+}
+.general-dental {
+  border: solid 1px #6CC6C4;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 20px;
+
+}
+.esthetic-dental {
+  border: solid 1px #6CC6C4;
+  border-radius: 6px 6px 0 0;
+
+}
+
+.top-wrapper-left li ::before {
+  content:'';
+  display:block;
+	position:absolute;
+  background: #6CC6C4;
+	width:9px;
+	height:9px;
+	top:21px;
+	left:0px;
+	transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+}
+/*ここから真ん中の右*/
+.top-wrapper-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 22px;
+}
+.top-wrapper-right img {
+  margin-bottom: 7px;
+}
+.new-informations  {
+  padding: 40px 20px 45px 20px;
+  background-color: white;
+}
+.new-informations h3 {
+  border-bottom: solid 5px #6CC6C4;
+  font-size: 16px;
+  color: #515151;
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+.information {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  justify-content: space-between;
+  border-bottom: dotted 1px #CCCCCC;
+
+}
+.information p {
+  display: inline-block;
+  font-size: 13px;
+  color: #515151;
+}
+.date {
+  font-weight: 700;
+}
+.content {
+  width: 435px;
+}
+/*ここからフッター*/
+footer {
+  margin-top: 20px;
+}
+.menu-footer {
+  display: flex;
+  list-style: none;
+  background-color: #6CC6C4;
+  border-radius: 6px;
+  height: 30px;
+
+}
+.menu-footer ul {
+  padding-left: 15px;
+  margin: 0 0;
+}
+.menu-footer li {
+  display: inline-block;
+  position:relative;
+	padding-left:20px;
+  margin-right: 7px;
+}
+.menu-footer li::after {
+  content:'';
+	display:block;
+	position:absolute;
+	top:8px;
+	left:3px;
+	border-radius:30px;
+	height:7px;
+	width:7px;
+	border:3px solid white;
+
+}
+.menu-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  line-height: 30px;
+}
+.menu-footer a:hover {
+  text-decoration: underline;
+}
+.footer-under {
+  display: flex;
+  flex-direction: row-reverse;
+    border-bottom: solid 2px #6CC6C4;
+}
+.footer-under h3 {
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 13px;
+  color: #515151;
+
+}
+.footer-under span {
+  font-weight: 700;
+  margin-right: 10px;
+}
+.copyright {
+  text-align: center;
+  color: #515151;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+@media (max-width: 758px){
+  .header-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-flex img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .business-hours {
+    text-align: center;
+  }
+  .menu-flex ul {
+    flex-wrap: wrap;
+  }
+  .menu-flex li {
+    width: 50%;
+  }
+  .top-wrapper-flex {
+    flex-direction: column;
+
+  }
+  .top-wrapper-flex img {
+    order: 1;
+  }
+  .new-informations {
+    order: 2;
+  }
+  .top-wrapper-left {
+    order: 3;
+    width: 100%;
+  }
+}
